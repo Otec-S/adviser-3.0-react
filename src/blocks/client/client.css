@@ -1,0 +1,10 @@
+.client {
+  width: 300px;
+  height: 300px;
+}
+
+/* @media screen and (max-width: 639px) {
+  .client {
+    height: none;
+  }
+} */

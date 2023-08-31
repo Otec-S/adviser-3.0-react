@@ -1,0 +1,11 @@
+.block__title_about-firm {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* @media screen and (max-width: 500px) {
+  .block__title_about-firm {
+    width: 170px;
+  }
+} */

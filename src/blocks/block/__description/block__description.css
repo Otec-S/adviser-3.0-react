@@ -1,0 +1,11 @@
+.block__description {
+  display: flex;
+  background-color: lightgray;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .block__description {
+    flex-direction: column;
+  }
+}

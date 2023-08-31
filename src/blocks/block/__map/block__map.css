@@ -1,0 +1,10 @@
+.block__map {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 845px) {
+  .block__map {
+    flex-direction: column;
+  }
+}
+

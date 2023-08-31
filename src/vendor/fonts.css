@@ -1,0 +1,20 @@
+@font-face {
+  src: url(./JuraBold.woff);
+  font-family: 'Jura Bold';
+  font-style: bold;
+}
+@font-face {
+  src: url(./JuraLight.woff);
+  font-family: 'Jura Light';
+  font-style: light;
+}
+@font-face {
+  src: url(./JuraMedium.woff);
+  font-family: 'Jura Medium';
+  font-weight: medium;
+}
+
+@font-face {
+  src: url(./JuraRegular.woff);
+  font-family: 'Jura';
+}

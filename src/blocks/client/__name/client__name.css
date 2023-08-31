@@ -1,0 +1,13 @@
+.client__name {
+  color: rgb(91, 91, 91);
+  line-height: 1.3em;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+}
+
+@media screen and (max-width: 639px) {
+  .client__name {
+    display: none;
+  }
+}

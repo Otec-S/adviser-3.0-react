@@ -1,0 +1,15 @@
+.header {
+  min-height: 90px;
+  background-color: rgb(85, 74, 88);
+  display: flex;
+  /* flex-wrap: wrap; */
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+@media screen and (max-width: 845px) {
+  .header {
+    flex-direction: column;
+  }
+}

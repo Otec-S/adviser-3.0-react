@@ -1,0 +1,27 @@
+.header__title {
+  width: 33.33%;
+  min-height: 71px;
+  line-height: 1.1em;
+  font-size: 35px;
+  font-weight: 100;
+  margin: auto;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 845px) {
+  .header__title {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__title {
+    font-size: 25px;
+  }
+}

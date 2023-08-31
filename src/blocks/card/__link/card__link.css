@@ -1,0 +1,11 @@
+.card__link {
+  text-decoration: none;
+  line-height: 20px;
+  color: rgb(64, 186, 188);
+  text-transform: uppercase;
+  transition: transform .2s linear;
+}
+
+.card__link:hover {
+  transform: scale(1.2);
+}

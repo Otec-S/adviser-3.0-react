@@ -1,0 +1,15 @@
+.nav {
+  width: 66.67%;
+  /* height: 119px; */
+  background-color: rgb(64, 186, 188);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 845px) {
+  .nav {
+    width: 100%;
+  }
+}

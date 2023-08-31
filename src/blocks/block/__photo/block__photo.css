@@ -1,0 +1,10 @@
+.block__photo {
+  width: 250px;
+  box-shadow: 0 0 15px 0 rgb(85 74 88);
+}
+
+@media screen and (max-width: 640px) {
+  .block__photo {
+    width: 170px;
+  }
+}

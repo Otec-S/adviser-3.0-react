@@ -1,0 +1,10 @@
+.page {
+  /* min-width: 320px;
+  max-width: 1280px; */
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Jura Bold', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}

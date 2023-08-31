@@ -1,0 +1,11 @@
+.client__logo {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+
+/* @media screen and (max-width: 639px) {
+  .client__logo {
+    min-height: 10px;;
+  }
+} */

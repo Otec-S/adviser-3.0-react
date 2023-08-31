@@ -1,0 +1,15 @@
+.block__title {
+  line-height: 1.1em;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  padding: 20px 20px;
+  margin: 0;
+  background-color: rgb(85, 74, 88);
+}
+/* 
+@media screen and (max-width: 500px) {
+  .block__title {
+    font-size: 16px;
+  }
+} */
