@@ -1,0 +1,12 @@
+.main {
+  background-image: url(../../images/building.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin: 0;
+  display: flex; */
+  /* padding-bottom: 60px; */
+  /* height: 100vh; */
+  /*???????????????????*/
+  min-height: calc(100vh - 161px);
+  font-family: "Jura Bold", Arial, Helvetica, sans-serif;
+}
