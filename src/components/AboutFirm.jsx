@@ -1,5 +1,6 @@
 import "./AboutFirm.css";
-
+import photoGrigorash from '../images/Grigorash-portrait.jpg';
+import photoKuznetsov from '../images/Kuznetsov-portrait.png';
 
 export default function AboutFirm() {
   return (
@@ -45,7 +46,7 @@ export default function AboutFirm() {
           <div className="block__photo-place">
             <img
               className="block__photo"
-              src="./images/Grigorash-portrait.jpg"
+              src={photoGrigorash}
               alt="Портрет Григораш"
             />
           </div>
@@ -123,7 +124,7 @@ export default function AboutFirm() {
           <div className="block__photo-place">
             <img
               className="block__photo"
-              src="./images/Kuznetsov-portrait.png"
+              src={photoKuznetsov}
               alt="Портрет Кузнецов"
             />
           </div>
@@ -142,7 +143,9 @@ export default function AboutFirm() {
               <li className="block__list">корпоративное и торговое право,</li>
               <li className="block__list">право информационных технологий,</li>
               <li className="block__list">законодательство о конкуренции,</li>
-              <li className="block__list">законодательство Европейского Союза,</li>
+              <li className="block__list">
+                законодательство Европейского Союза,
+              </li>
               <li className="block__list">трудовое право,</li>
               <li className="block__list">
                 юридическое сопровождение деятельности предприятий в целом.
@@ -156,5 +159,5 @@ export default function AboutFirm() {
         </div>
       </section>
     </main>
-  )
+  );
 }
