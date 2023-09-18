@@ -1,4 +1,4 @@
-import "./AboutFirm.css";
+import "./AboutPartner.css";
 import photoKuznetsov from "../images/Kuznetsov-portrait.png";
 
 export default function AboutKuznetsov() {

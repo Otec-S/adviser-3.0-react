@@ -1,4 +1,4 @@
-import "./AboutFirm.css";
+import "./AboutPartner.css";
 import photoGrigorash from "../images/Grigorash-portrait.jpg";
 
 export default function AboutGrigorash() {

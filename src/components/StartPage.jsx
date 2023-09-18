@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./StartPage.css";
 
 export default function StartPage() {
   return (

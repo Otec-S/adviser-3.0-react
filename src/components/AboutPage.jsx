@@ -1,4 +1,3 @@
-import "./AboutFirm.css";
 import AboutFirm from "./AboutFirm";
 import AboutGrigorash from "./AboutGrigorash";
 import AboutKuznetsov from "./AboutKuznetsov";
