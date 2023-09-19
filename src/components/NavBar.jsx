@@ -22,6 +22,15 @@ export default function NavBar({}) {
         о фирме
       </NavLink>
 
+      <NavLink
+        to="/news"
+        className={({ isActive }) =>
+          `${isActive ? "nav__title nav__title_active" : "nav__title"}`
+        }
+      >
+        новости
+      </NavLink>
+
       {/* 
           // <NavigationLink navigationLinkText="главная" />
           // <NavigationLink navigationLinkText="о фирме" />
